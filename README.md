@@ -43,3 +43,9 @@ lazyDialog工具类
                         .setShowBottom(true) // 是否显示在底部
                         .setOutCancel(true) // 点击外部是否可以取消
                         .show(getSupportFragmentManager()); // 需要传入 FragmentManager对象
+			
+			
+			
+			
+			
+			源项目地址https://github.com/Othershe/NiceDialog
