@@ -21,5 +21,4 @@ lazyDialog工具类
 	}
 
 
-    [![](https://jitpack.io/v/ActorMing/LazyDialogApplication.svg)](https://jitpack.io/#ActorMing/LazyDialogApplication)
     
