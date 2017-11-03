@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200">
+
+    <!--
+        入场动画
+        透明度从0-1
+        平移从0-100
+    -->
+    <translate
+        android:fromYDelta="100%p"
+        android:toYDelta="0%p" />
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+</set>

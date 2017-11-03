@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LazyDialog 的主题样式 -->
+    <style name="LazyDialogTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            设置:
+                无标题
+                透明背景
+                颜色背景缓存提示
+                窗口自动弹出软键盘
+                窗口是否是浮动的
+        -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- LazyDialog的进、出场动画 -->
+    <style name="LazyDialogAnimation" parent="Animation.AppCompat.Dialog">
+        <!-- 入场动画 -->
+        <item name="android:windowEnterAnimation">@anim/enter_anim</item>
+        <!-- 出场动画 -->
+        <item name="android:windowExitAnimation">@anim/exit_anim</item>
+    </style>
+</resources>
