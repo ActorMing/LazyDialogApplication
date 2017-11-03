@@ -1,9 +1,10 @@
 # LazyDialogApplication
 lazyDialog工具类
-   方便在android中进行显示自定义的布局样式,提高开发效率.
+   方便在android中进行显示自定义的布局样式,提高开发效率.源项目地址 https://github.com/Othershe/NiceDialog
    ===========
 
 配置:
+-----
     Step 1. Add the JitPack repository to your build file
     Add it in your root build.gradle at the end of repositories:
 
@@ -23,6 +24,7 @@ lazyDialog工具类
 
     
 使用方式:
+------
 
          LazyDialog.init()
                         .setLayoutId(R.layout.share_layout)
@@ -46,6 +48,5 @@ lazyDialog工具类
 			
 			
 			
-			
-			
-			源项目地址https://github.com/Othershe/NiceDialog
+
+可以根据自己的需求来加载相对应的layoutId,然后在LazyViewHolder中进行回调
