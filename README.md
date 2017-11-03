@@ -22,3 +22,24 @@ lazyDialog工具类
 
 
     
+使用方式:
+
+         LazyDialog.init()
+                        .setLayoutId(R.layout.share_layout)
+                        .setConvertListener(new ConvertViewListener() {
+                            @Override
+                            protected void convertView(LazyViewHolder lazyViewHolder, final BaseLazyDialog                  baseLazyDialog) {
+                                lazyViewHolder.getView(R.id.iv_share_qq).setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        baseLazyDialog.dismiss();
+                                        Toast.makeText(MainActivity.this, "app will start qq", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
+                        })
+                        .setWidth(0) // 设置宽度 0代表屏幕宽度,-1代表内容包裹
+                        .setMargin(0) // 边距
+                        .setShowBottom(true) // 是否显示在底部
+                        .setOutCancel(true) // 点击外部是否可以取消
+                        .show(getSupportFragmentManager()); // 需要传入 FragmentManager对象
