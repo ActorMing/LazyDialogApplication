@@ -2,7 +2,7 @@
 <resources>
 
     <!-- LazyDialog 的主题样式 -->
-    <style name="LazyDialogTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="LazyDialogTheme" parent="@android:style/Theme.Light">
         <!--
             设置:
                 无标题
@@ -19,7 +19,7 @@
     </style>
 
     <!-- LazyDialog的进、出场动画 -->
-    <style name="LazyDialogAnimation" parent="Animation.AppCompat.Dialog">
+    <style name="LazyDialogAnimation" parent="android:Animation">
         <!-- 入场动画 -->
         <item name="android:windowEnterAnimation">@anim/enter_anim</item>
         <!-- 出场动画 -->
