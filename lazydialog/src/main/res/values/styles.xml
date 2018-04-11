@@ -12,10 +12,8 @@
                 窗口是否是浮动的
         -->
         <item name="android:windowNoTitle">true</item>
-        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
-        <!-- 模糊 -->
-        <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:windowIsFloating">true</item>
     </style>
